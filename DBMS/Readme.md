@@ -4,11 +4,11 @@
 ## To start open up your mariadb/sql shell:
 ### Now create a database named studenId
 ~~~
-create database studentId
+create database studentId;
 ~~~
 ### Now create a table list for inserting Name,Age and RollNo
 ~~~
-create table list(Name varchar(10),Age int(3),RollNo int(3))
+create table list(Name varchar(10),Age int(3),RollNo int(3));
 ~~~
 
 ## The GUI based JAVA code for inserting Name,Age and RollNo
