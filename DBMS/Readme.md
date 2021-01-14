@@ -11,7 +11,7 @@ create database studentId;
 create table list(Name varchar(10),Age int(3),RollNo int(3));
 ~~~
 
-## The GUI based JAVA code for inserting Name,Age and RollNo
+## The GUI based JAVA code for inserting Name,Age and RollNo to the Database
 ### File name ```studentList.java```
 ```
 import javax.swing.*;  
