@@ -1,2 +1,2 @@
 # JAVA
-## You 'may' find intresting Java Files Here.
+## You 'may' find intresting Java Codes here.
