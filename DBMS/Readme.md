@@ -67,7 +67,8 @@ public class studentList implements ActionListener
                 //Class.forName("org.mariadb.jdbc.Driver");
                 //Open a connection
                 Connection con=DriverManager.getConnection("jdbc:mariadb://localhost:3306/studentid","root","amalshibu");
-                 //Create a statement object
+		//Connection con=DriverManager.getConnection("jdbc:mariadb://localhost:3306/studentid","username","password");
+                //Create a statement object
                 Statement st=con.createStatement();
                 st.executeUpdate("insert into list(Name,Age,RollNo) values('"+Name+"','"+age+"','"+roll+"')") ;
                 //value hopefully inserted
