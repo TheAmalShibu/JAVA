@@ -6,11 +6,13 @@
 ~~~
 create database studentId;
 ~~~
+![database](https://github.com/TheAmalShibu/JAVA/blob/main/DBMS/Asset/1.png)
 ### Now create a table list for inserting Name,Age and RollNo
 ~~~
 create table list(Name varchar(10),Age int(3),RollNo int(3));
 ~~~
-
+![Table](https://github.com/TheAmalShibu/JAVA/blob/main/DBMS/Asset/2.png)
+![descanddetails](https://github.com/TheAmalShibu/JAVA/blob/main/DBMS/Asset/3.png)
 ## The GUI based JAVA code for inserting Name,Age and RollNo to the Database
 ### File name ```studentList.java```
 ```
@@ -87,3 +89,5 @@ public class studentList implements ActionListener
 }  
 
 ```
+![The GUI](https://github.com/TheAmalShibu/JAVA/blob/main/DBMS/Asset/resultbox.png)
+![Updated Database](https://github.com/TheAmalShibu/JAVA/blob/main/DBMS/Asset/op.png)
