@@ -66,6 +66,7 @@ public class studentList implements ActionListener
             try 
             {
                 // Register JDBC driver
+		//Class.forName("com.mysql.jdbc.Driver"); //MySql Users uncomment this line.
                 //Class.forName("org.mariadb.jdbc.Driver");
                 //Open a connection
                 Connection con=DriverManager.getConnection("jdbc:mariadb://localhost:3306/studentid","root","amalshibu");
